@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient( to left, green, blue);
+    font-size:100px;
+    color: rgba(165, 101, 152, 0.526);
+}
+header{
+    font-size: 30px;
+    color: rgb(1, 128, 179);
+    height: 500px;
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/7gkKHpiJ6mCHRPisjeAZwQ/1200x675mf.jpg);
+    background-size: cover; /*contain*/
+    background-position: center;
+    background-position-y: -350px;
+    text-align: center;
+    padding-top:200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    font-size: 55px;
+    color: rgb(160, 255, 100);
+    justify-content: center;
+    display: flex;
+}
+footer{
+    font-size: 100px;
+    color: rgb(1, 175, 255);
+}
+.left{
+    background: radial-gradient(#9fa102, #000000);
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.right{
+    background: conic-gradient(#000000 #9fa102);
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+footer{
+    display: flex;
+    font-size: 60px;
+    color: rgb(0, 132, 255);
+    background-color: white;
+    padding-top: 20px;
+    height: 100%;
+}
+ul{
+    display: flex;
+    
+
+}
+li{
+    list-style: none;
+    
+}
+.f_left img{
+    width: 50px;
+}
+.f_left{
+    width: 50%;
+}
+.f_right{
+    margin-left: auto;
+}
